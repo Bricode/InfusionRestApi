@@ -9,10 +9,10 @@ public class RFIDTag {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private int RFID;
 
-  @Column(name = "customer")
+
   @ManyToOne
   private Customer customer;
-  @Column(name = "vehicle")
+
   @ManyToOne
   private Vehicle vehicle;
 

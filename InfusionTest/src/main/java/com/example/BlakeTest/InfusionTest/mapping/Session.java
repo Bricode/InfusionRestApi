@@ -19,18 +19,14 @@ public class Session {
   @Column(name="startMeterValue")
   private Double startMeterValue;
 
-  @Column(name="sessionComplete")
-  private Boolean sessionComplete;
 
   @Column(name="endTime")
   private Timestamp endTime;
   @Column(name="endMeterValue")
   private Double endMeterValue;
   @OneToOne
-  @Column(name="RFIDTag")
   private RFIDTag RFIDTag;
   @OneToOne
-  @Column(name = "connector")
   private Connector connector;
 
 

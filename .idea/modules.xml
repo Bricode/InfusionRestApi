@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/InfusionRestApi.iml" filepath="$PROJECT_DIR$/.idea/InfusionRestApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InfusionTest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/InfusionTest.main.iml" />
     </modules>
   </component>
 </project>

@@ -10,7 +10,6 @@ public class Connector {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private int connectorNumber;
   @ManyToOne
-  @Column(name = "chargePoint")
   private ChargePoint chargePoint;
 
   public Connector(ChargePoint chargePoint) {
